@@ -8,8 +8,10 @@ This project investigates the impact of feature engineering and algorithm select
 The primary goal of this research was to evaluate how the number of features and different kernel functions affect prediction accuracy.
 
 ### 🔹 Key Findings
-* **Dataset A (9 Features):** Achieved its peak performance of **97.32%** using the **Decision Tree (DT)** algorithm.
-* **Dataset B (22 Features):** Reached a maximum accuracy of **85.08%** using **Support Vector Regression (SVR)** with an **RBF Kernel**.
+* **Dataset A (9 Features):** Achieved its peak performance of **97.32%** using the **Decision Tree (DT)** algorithm.(Kaggle, Diabetes prediction dataset, https://www.kaggle.com/code
+/tumpanjawat/diabetes-eda-random-forest-hp/input (2023).)
+* **Dataset B (22 Features):** Reached a maximum accuracy of **85.08%** using **Support Vector Regression (SVR)** with an **RBF Kernel**. (Kaggle, Diabetes health indicators dataset,
+https://www.kaggle.com/datasets/julnazz/diabetes-health-indicators-dataset/data (2021).)
 * **Kernel Comparison:** Evaluated Linear, Polynomial, RBF, and Sigmoid kernels. The **RBF (Radial Basis Function) kernel** consistently outperformed others across both datasets.
 
 ---
